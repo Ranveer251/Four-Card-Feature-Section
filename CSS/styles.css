@@ -1,0 +1,162 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+}
+
+.info{
+  text-align: center;
+}
+
+.info h1{
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.info h2{
+  font-size: 32px;
+  margin-bottom: 5px;
+  padding-top: 40px;
+  font-weight: 200;
+}
+
+.info p{
+  width: 36%;
+  margin: 10px auto 60px;
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+
+.boxes{
+  /* margin-bottom: 50px; */
+}
+
+.boxes h2{
+  font-weight: 400;
+  /* padding-top: 15px; */
+}
+
+.boxes img{
+  margin: 20px 0 0 80%;
+}
+
+.boxes p{
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+}
+
+.Team-Builder{
+  width: 350px;
+  background-color: white;
+  text-align: left;
+  padding: 13px;
+  border-radius: 2%;
+  border-top: 3px solid hsl(0, 78%, 62%);
+  box-shadow: 2px 2px 5px hsl(234, 12%, 34%);
+  position: absolute;
+  left: 36%;
+}
+
+/* . h2{
+  padding-top: 30px;
+} */
+
+.Supervisor{
+  width: 350px;
+  background-color: white;
+  text-align: left;
+  padding: 13px;
+  border-radius: 2%;
+  border-radius: 2%;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  box-shadow: 2px 2px 5px hsl(234, 12%, 34%);
+  position: absolute;
+  left: 4%;
+  top: 65%;
+}
+
+.Calculator{
+  width: 350px;
+  background-color: white;
+  text-align: left;
+  padding: 13px;
+  border-radius: 2%;
+  border-radius: 2%;
+  border-top: 3px solid hsl(212, 86%, 64%);
+  box-shadow: 2px 2px 5px hsl(234, 12%, 34%);
+  position: absolute;
+  top: 66%;
+  left: 68%;
+}
+
+.Karma{
+  width: 350px;
+  background-color: white;
+  text-align: left;
+  padding: 13px;
+  border-radius: 2%;
+  border-radius: 2%;
+  border-top: 3px solid hsl(34, 97%, 64%);
+  box-shadow: 2px 2px 5px hsl(234, 12%, 34%);
+  position: absolute;
+  left: 36%;
+  top: 84%;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 550px){
+  .boxes{
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+    justify-content: center;
+    /* text-align: center; */
+  }
+  .Team-Builder{
+    position: static;
+    margin: 0 auto 40px;
+  }
+  .Calculator{
+    position: static;
+    margin: 0 auto 40px;
+  }
+  .Karma{
+    position: static;
+    margin: 0 auto 40px;
+  }
+  .Supervisor{
+    position: static;
+    margin: 0 auto 40px;
+  }
+  .info p{
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 1150px){
+  .boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Team-Builder{
+    position: static;
+    margin: 0 auto 40px;
+  }
+  .Calculator{
+    position: static;
+    margin: 0 auto 40px;
+  }
+  .Karma{
+    position: static;
+    margin: 0 auto 40px;
+  }
+  .Supervisor{
+    position: static;
+    margin: 0 auto 40px;
+  }
+  .info p{
+    width: 50%;
+  }
+}
